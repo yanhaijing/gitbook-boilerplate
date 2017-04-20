@@ -1,0 +1,19 @@
+{
+    "title": "gitbook-boilerplate",
+    "description": "gitbook boilerplate",
+    "language": "zh",
+    "structure": {
+        "readme": "INTRO.md"
+    },
+    "plugins": ["github", "edit-link", "-diy-introduction"],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/yanhaijing/gitbook-boilerplate"
+        },
+        "edit-link": {
+            "base": "https://github.com/yanhaijing/spring/edit/master/",
+            "label": "Edit This Page"
+        },
+        "introduction-text": "封面"
+    }
+}
