@@ -11,7 +11,10 @@ var output = '# ' + book.title + '\n\n';
 
 var contentArr = summary.match(/\(.*\)/g).map(function (path) {
     path = path.slice(1).slice(0, -1);
-    return fs.readFileSync('./' + path).toString();
+    var res = fs.readFileSync('./' + path).toString();
+    // pandoc 图片路径修复
+    res = res.replace('](/img/', '](./img/');
+    return res;
 });
 
 output += contentArr.join('\n\n');

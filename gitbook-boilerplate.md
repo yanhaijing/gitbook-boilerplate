@@ -55,7 +55,7 @@
 
 下面是一张图片
 
-![图片](/img/facebook.png)
+![图片描述](./img/facebook.png)
 
 脚注[^6]脚注脚注
 
