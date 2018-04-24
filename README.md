@@ -1,4 +1,6 @@
 # GitBook模版
+一个基于gitbook快速写电子书的模版，支持html、pdf、docx、epub、mobi
+
 [GitBook使用笔记](http://yanhaijing.com/tool/2015/09/12/my-gitbook-note/)
 
 ## 依赖环境
