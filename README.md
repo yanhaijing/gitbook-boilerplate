@@ -4,6 +4,7 @@
 [GitBook使用笔记](http://yanhaijing.com/tool/2015/09/12/my-gitbook-note/)
 
 ## 依赖环境
+- node 8.9.4
 - gitbook-cli@2.3.0
 - gitbook@3.2.2
 - calibre@2.38.0
